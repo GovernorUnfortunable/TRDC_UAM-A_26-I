@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="css/slides-extended.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+    <link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+    <script defer src="plugin/load-mathjax.js"></script>
+
+    <script type="text/javascript">
+        function pageInIframe() {
+            return (window.location !== window.parent.location);
+        }
+
+        let forgetPop = true;
+        function onPopState(event) {
+            if(forgetPop){
+                forgetPop = false;
+            } else if( pageInIframe()) {
+                parent.postMessage(event.target.location.href, "app://obsidian.md");
+            }
+        }
+        window.onpopstate = onPopState;
+        window.onmessage = event => {
+            if(event.data == "reload"){
+                window.document.location.reload();
+            }
+            forgetPop = true;
+        }
+
+        function fitElements() {
+            const itemsToFit = document.getElementsByClassName('fitText');
+            for (const item in itemsToFit) {
+                if (Object.hasOwnProperty.call(itemsToFit, item)) {
+                    const element = itemsToFit[item];
+                    fitElement(element, 1, 1000);
+                    element.classList.remove('fitText');
+                }
+            }
+        }
+
+        function fitElement(element, start, end) {
+
+            let size = (end + start) / 2;
+            element.style.fontSize = `${size}px`;
+
+            if (Math.abs(start - end) < 1) {
+                while (element.scrollHeight > element.offsetHeight) {
+                    size--;
+                    element.style.fontSize = `${size}px`;
+                }
+                return;
+            }
+
+            if (element.scrollHeight > element.offsetHeight) {
+                fitElement(element, start, size);
+            } else {
+                fitElement(element, size, end);
+            }
+        }
+
+        document.onreadystatechange = () => {
+            fitElements();
+            if (document.readyState === 'complete') {
+                if (pageInIframe() && window.location.href.indexOf("?export") != -1){
+                    parent.postMessage(event.target.location.href, "app://obsidian.md");
+                }
+                if (window.location.href.indexOf("print-pdf") != -1){
+                    let stateCheck = setInterval(() => {
+                        clearInterval(stateCheck);
+                        window.print();
+                    }, 250);
+                }
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides"><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" template="" data-background-color="#006d77" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## 📊 🔢 Técnicas de Recuperación de Datos Cuantitativos 💾 👩🏽‍💻
+### Licenciatura en Sociología
+
+
+**Profesor**: Dr. Matias F. Milia.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="#edf6f9" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Acerca de mí 🧑🏻‍🏫️
+
+1. Soy **sociólogo**, especializado en estudios sociales de la ciencia y métodos computacionales.
+2. Nací en Argentina 🇦‍🇷, he trabajado en Ecuador 🇪‍🇨, Estados Unidos 🇺‍🇸 y Francia 🇫‍🇷. 
+3. **Temas de interés**: ciencia abierta, investigación socioambiental, minería y análisis de texto, infraestructuras digitales. 
+4. En **mi investigación** uso métodos digitales y etnográficos para estudiar las transformaciones digitales, cómo producimos y usamos el conocimiento, y de qué manera las tecnologías abiertas pueden ayudar a afrontar retos socioambientales. 
+5. **Dato curioso**: he tenido que hacer asado  🔥 sin usar una parrilla.
+6. Para mí, casa es tomar cerveza al lado del río.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#8372A9" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ronda de presentaciones 🧑🏻‍🏫️ 💬
+
+1. Tu nombre
+2. ¿Qué te hace sentir en casa?
+3. ¿Qué materias te han gustado más y por qué?
+4. ¿Tienes un área o temática de la sociología en la que te gustaría especializarte? 
+5. ¿Qué te interesa de esta clase? ¿Cuál es tu principal objetivo? 
+6. Cuenta, si quieres, algún dato curioso sobre ti.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#8372A9" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Memo-test 🧠
+
+|   |   |
+| -------------------- | ----------------|
+| SAUCEDO RIVERA       | _SONIA_ |
+| AYALA PERALTA        | _SANTIAGO ARMANDO_ |
+| PEREZ SEDAS          | _BRENDA NOEMI_ |
+| CORRIENTES HERNANDEZ | _BARBARA AURORA_ |
+| GARCIA CRUZ          | _XANA SAYURI_ |
+| MOSQUEDA CRAVIOTO    | _AYAX LEONARDO_ |
+| FLORES RAMIREZ       | _EMANUEL_ |
+| RESENDIZ LOPEZ       | _DIEGO ENRIQUE_ |
+| RAMIREZ LOAIZA       | _ITZEEL_ |
+| AVINA BELTRAN        | _NORA SOFIA_ |
+| DIEGO GUZMAN         | _LUISA ARIADNA_ |
+| MOJICA SOTO          | _ESTRELLA JOANNA_ |
+| LEMUS PADILLA        | _ANDREA_ |
+| RODRIGUEZ GARCIA     | _GISELLE ITZAE_ |
+| PAEZ ARANDA          | _FERNANDO EHIDAN_ |
+| OROZCO CHAVEZ        | _ALAN_ |
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#8372A9" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Código de Ética
+
+- Honestidad intelectual, integridad académica
+- ❌ NO utilices la IA para:
+  - Redactar trabajos completos.
+  - Sustituir tu propio análisis.
+  - Generar trabajos a su nombre.
+- ✅ La IA SOLO se puede utilizar como:
+  - Asistencia limitada.
+  - Herramienta de apoyo.
+  - NO como creadora de contenido o respuestas
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="#edf6f9" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Forma de trabajo: aprendizaje incremental 
+
+- **¿Qué es?**
+	- Apoyo temporar
+	- Funcionamiento iterativo
+- **Objetivo**: 
+	- cubrir brechas, 
+	- desarrollar hábitos / rutinas
+	- alcanzar objetivos
+	- lograr independencia en el aprendizaje
+- Puntos clave: **Cronograma e hitos**
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="#A4C4C7" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Difusión de anuncios y material de clase
+
+- Correo electrónico 📧
+- Apps de mensajería 📱
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" template="" data-background-color="#006d77" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Datos de Contacto 📱
+
+<img src="Pasted image 20260119222332.png" alt="" style="object-fit: scale-down">
+
+
+### [Acceso aquí](https://cryptpad.fr/form/#/2/form/view/Ao-S1lAam2GKz1amZwwj0myHbBKJMKjhNyu+4afDlM4/)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="#F4F59D" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## ¡Nos vemos el jueves!
+</div></script></section></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/mermaid/mermaid.js"></script>
+    <script src="plugin/chart/chart.umd.js"></script>
+    <script src="plugin/chart/plugin.js"></script>
+    <script src="plugin/customcontrols/plugin.js"></script>
+    <script src="plugin/elapsed-time-bar/elapsed-time-bar.js"></script>
+
+    <script>
+        function extend() {
+            const target = {};
+            for (let i = 0; i < arguments.length; i++) {
+                const source = arguments[i];
+                for (const key in source) {
+                    if (source.hasOwnProperty(key)) {
+                        target[key] = source[key];
+                    }
+                }
+            }
+            return target;
+        }
+
+        function isLight(color) {
+            let hex = color.replace('#', '');
+
+            // convert #fff => #ffffff
+            if (hex.length == 3) {
+                hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+            }
+
+            const c_r = parseInt(hex.substr(0, 2), 16);
+            const c_g = parseInt(hex.substr(2, 2), 16);
+            const c_b = parseInt(hex.substr(4, 2), 16);
+            const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+            return brightness > 155;
+        }
+
+        const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+
+        if (isLight(bgColor)) {
+            document.body.classList.add('has-light-background');
+        } else {
+            document.body.classList.add('has-dark-background');
+        }
+
+        // default options to init reveal.js
+        const defaultOptions = {
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'default', // none/fade/slide/convex/concave/zoom
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealZoom,
+                RevealNotes,
+                RevealMath.MathJax3,
+                RevealMermaid,
+                RevealChart,
+                RevealCustomControls,
+                ElapsedTimeBar
+            ],
+            allottedTime: 120 * 1000,
+            mathjax3: {
+                mathjax: 'plugin/math/mathjax/tex-chtml-full.js',
+            },
+            markdown: {
+                gfm: true,
+                mangle: false,
+                pedantic: false,
+                smartLists: false,
+                smartypants: false,
+            },
+            mermaid: {
+                theme: isLight(bgColor) ? 'default' : 'dark',
+            },
+            customcontrols: {
+                controls: [
+                    {
+                        id: 'toggle-overview',
+                        title: 'Toggle overview (O)',
+                        icon: '<i class="fa fa-th"></i>',
+                        action: 'Reveal.toggleOverview();'
+                    },
+                ]
+            },
+        };
+
+        if ( pageInIframe() ) {
+            defaultOptions.scrollActivationWidth = 5;
+        }
+
+        // options from URL query string
+        const queryOptions = Reveal().getQueryHash() || {};
+
+        const options = extend(defaultOptions, {"controls":true,"progress":"true","slideNumber":"true","center":true,"transition":"concave","transitionSpeed":"default","width":"1800","height":"1200","margin":"0.1","minScale":"0.1","maxScale":"0.95"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+    <!-- created with Slides Extended reveal.html template -->
+</body>
+</html>
