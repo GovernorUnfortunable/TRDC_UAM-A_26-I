@@ -1,5 +1,4 @@
-# Apuntes: Cuantificación y Métodos en Ciencias Sociales
-
+**Apuntes: Cuantificación y Métodos en Ciencias Sociales (clase teórica, número 1)**
 ## La Cuantificación: Definición y Propósito 🔢
 ```markdown
 ---
@@ -9,13 +8,16 @@ Seesión: 1
 ---
 ```
 
+```table-of-contents
+```
+
 Durante esta primera clase, tuvimos como objetivo ofrecer una aproximación inicial a la **cuantificación en las ciencias sociales**. Para ello, buscamos entender cómo los fenómenos sociales se convierten en algo *medible*. Enfatizamos la idea de que la cuantificación y la medición de los fenómenos sociales operan sobre la realidad a partir de su *representación* y, para ello, *simplifican una realidad* que, de otra forma, sería compleja, caótica, difícil de analizar y de entender. 
 
 Vimos algunos de los primeros propósitos de la medición y discutimos algunos de los usos de la cuantificación en las sociedades modernas. En particular, hicimos un recorrido para situar el surgimiento de la estadística (como ciencia) y las estadísticas (como datos) en el contexto histórico. Enfatizamos el rol que puede tener la identificación de patrones de comportamiento en las sociedades humanas, trajimos a colación la cita de la antropóloga británica [Mary Douglas](https://es.wikipedia.org/wiki/Mary_Douglas) para entender cómo las entidades sociales y naturales se relacionan con las categorías que las describen e intentan explicar. Agrego una cita que complementa la de Douglas y ayuda a entender mejor el impacto de las clasificaciones en los grupos humanos y sus dinámicas de organización. 
 
 > "In the same way as sexual perverts, hysterics, or depressive maniacs, living creatures interacting with humans transform themselves to adapt to the new system represented by the labels. The real difference may be that life outside of human society transforms itself away from the labels in self-defense, while that within human society transforms itself towards them in hope of relief or expecting advantage.”  —Mary Douglas, *How Institutions Think* (Syracuse: Syracuse University Press, 1986), p. 101. Una traducción, disponible [aquí](https://www.deepl.com/translator?share=generic#en/es-419/%22In%20the%20same%20way%20as%20sexual%20perverts%2C%20hysterics%2C%20or%20depressive%20maniacs%2C%20living%20creatures%20interacting%20with%20humans%20transform%20themselves%20to%20adapt%20to%20the%20new%20system%20represented%20by%20the%20labels.%20The%20real%20difference%20may%20be%20that%20life%20outside%20of%20human%20society%20transforms%20itself%20away%20from%20the%20labels%20in%20self-defense%2C%20while%20that%20within%20human%20society%20transforms%20itself%20towards%20them%20in%20hope%20of%20relief%20or%20expecting%20advantage.%E2%80%9D%20%20%E2%80%94Mary%20Douglas%2C%20*How%20Institutions%20Think).
 
-> “As Alain Desrosières and Laurent Thévenot (1988) note, different categories for professional works in the French, German, and British censuses led to the creation of very different social structures and gov ernment programs around them. Early in the nineteenth century, the differ ences between professionals in one country or the other did not make so much difference. By the end of the century, these differences had become entrenched and reified; people became more and more like their categories.” Geoffrey Bowker, _Memory Practices in the Sciences_ (MIT Press, 2005), p. 120. Una traducción disponible [aquí](https://www.deepl.com/translator?share=generic#en/es-419/As%20Alain%20Desrosi%C3%A8res%20and%20Laurent%20Th%C3%A9venot%20(1988)%20note%2C%20different%20categories%20for%20professional%20works%20in%20the%20French%2C%20German%2C%20and%20British%20censuses%20led%20to%20the%20creation%20of%20very%20different%20social%20structures%20and%20gov%20ernment%20programs%20around%20them.%20Early%20in%20the%20nineteenth%20century%2C%20the%20differ%20ences%20between%20professionals%20in%20one%20country%20or%20the%20other%20did%20not%20make%20so%20much%20difference.%20By%20the%20end%20of%20the%20century%2C%20these%20differences%20had%20become%20entrenched%20and%20reified%3B%20people%20became%20more%20and%20more%20like%20their%20categories.)
+> “As Alain Desrosières and Laurent Thévenot (1988) note, different categories for professional works in the French, German, and British censuses led to the creation of very different social structures and government programs around them. Early in the nineteenth century, the differ ences between professionals in one country or the other did not make so much difference. By the end of the century, these differences had become entrenched and reified; people became more and more like their categories.” Geoffrey Bowker, _Memory Practices in the Sciences_ (MIT Press, 2005), p. 120. Una traducción disponible [aquí](https://www.deepl.com/translator?share=generic#en/es-419/As%20Alain%20Desrosi%C3%A8res%20and%20Laurent%20Th%C3%A9venot%20(1988)%20note%2C%20different%20categories%20for%20professional%20works%20in%20the%20French%2C%20German%2C%20and%20British%20censuses%20led%20to%20the%20creation%20of%20very%20different%20social%20structures%20and%20gov%20ernment%20programs%20around%20them.%20Early%20in%20the%20nineteenth%20century%2C%20the%20differ%20ences%20between%20professionals%20in%20one%20country%20or%20the%20other%20did%20not%20make%20so%20much%20difference.%20By%20the%20end%20of%20the%20century%2C%20these%20differences%20had%20become%20entrenched%20and%20reified%3B%20people%20became%20more%20and%20more%20like%20their%20categories.)
 
 De forma general, compartimos algunos **propósitos para la medición**, que tenían que ver con facilitar la comparación de procesos, objetos y estructuras sociales entre distintas geografías, momentos históricos y grupos sociales. La medición permite, en definitiva, analizar las estructuras sociales, estudiar patrones de comportamiento y evaluar el impacto de decisiones, sobre todo de política pública. Permite, también, comprender cómo las entidades sociales (personas, instituciones, u objetos sociales, incluso) se relacionan entre sí. La recopilación de datos que permitan entender cuándo (cómo, y dónde) se relacionan las entidades sociales entre sí permite responder preguntas sobre el flujo de información, de influencia o de recursos en nuestras sociedades. Por último, dimos el ejemplo de cómo las mediciones sirven para caracterizar poblaciones, el principal objetivo de la [demografía](https://es.wikipedia.org/wiki/Demograf%C3%ADa). En este último caso, en particular, la descripción de poblaciones puede ser también la construcción de las mismas (discutimos, por ejemplo, el rol que puede tener el recoger la identidad de género en encuestas para visibilizar poblaciones históricamente excluidas, marginadas e incluso vulnerables). 
 
@@ -97,12 +99,15 @@ Para Weber, los pasos para construir conocimiento son los siguientes:
 
 Así, vemos dos tipos de paradigmas: 
 1. El **Paradigma Estructural** (Gesellschaft): que estudia aquellas relaciones  rlaciones racionales, mercantiles y mecanicistas. Representantes: Durkheim, Pareto, Merton, Parsons, Festinger, etc. Tiene las siguientes características: 
-	  - Interès en la dimensión estructural
+	  - Interés en la dimensión estructural
 	  - Método científico común
 	  - Medición "objetiva" externa
 	  - Búsqueda de leyes generales
 	  - Demostración de causalidades
 	  - Generalización de resultados
+
+Al respecto, sintetiza, Cea D'Ancona (2012, p. 22)
+> **La perspectiva “cientificista/cuantitativa”** coincide con la dimensión estructural en evolución de la teoría sociológica (positivismo, evolucionismo, funcionalismo). Defiende la existencia de un único método común a todas las ciencias (el método de las ciencias naturales y exactas), la medición objetiva, la búsqueda de leyes generales, la demostración de la causalidad y la generalización de los resultados de la investigación.  
 
 2.  Paradigma Intersubjetivo (Gemeinschaft): que busca priorizar la construcción de símbolos, de formas culturales, las relaciones afectivas, de sentimientos y emociones. Representantes: Max Weber, Tönnies, Simmel, Teoría Crítica, Fenomenología. Sus características son:
 	  - Cree que hay métodos específicos de ciencias sociales
@@ -112,7 +117,12 @@ Así, vemos dos tipos de paradigmas:
 	  - Énfasis en lenguaje e interacción
 	  - Descripción desde marcos de referencia de actores
 
-Tabla de contraste entre ambos paradigmas: 
+En relación a este paradigma, Cea D'Ancona (2012, p. 22-23), explica lo siguiente: 
+
+> **La perspectiva “humanista/cualitativa”** corresponde a la dimensión intersubjetiva (romanticismo, Weber y la sociología “comprehensiva”, la teoría crítica, la fenomenología). Defiende la especificidad de las ciencias sociales (rechaza el modelo metodológico de las ciencias naturales) y aboga por el análisis de lo individual y concreto, por medio de la comprensión o la interpretación de los significados intersubjetivos de la acción social (desde el punto de vista del actor social). El énfasis se pone en el lenguaje y en los aspectos micro de la vida social (la interacción). Se centra en el individuo, en la descripción y comprensión de su conducta en su propio marco de referencia.”
+
+
+### Tabla de contraste entre ambos paradigmas: 
 
 | |PARADIGMA CUANTITATIVO|PARADIGMA CUALITATIVO|
 |---|---|---|
