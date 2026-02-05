@@ -3,7 +3,7 @@
 ---
 Fecha: 2026-02-03
 Módulo: 1
-Sesión: 4
+Sesión: 3
 ---
 ```
 Referencia: Cea D’Ancona (2012; pp. 43-45)
