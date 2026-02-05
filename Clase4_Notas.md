@@ -1,9 +1,9 @@
 # Formulación del Problema de Investigación 
 ```markdown
 ---
-Fecha: 2026-01-27
-Modulo: 1
-Seesión: 3
+Fecha: 2026-02-03
+Módulo: 1
+Sesión: 4
 ---
 ```
 Referencia: Cea D’Ancona (2012; pp. 43-45)
