@@ -14,6 +14,7 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
 5. [Criterios de evaluación](https://docs.google.com/document/d/10gop7zTOOWGcr2-RefogXitJt2WNdrbMH0j70Cf-l5A/edit?tab=t.0) 📝
 6. [Proyecto final de la materia](https://docs.google.com/document/d/10gop7zTOOWGcr2-RefogXitJt2WNdrbMH0j70Cf-l5A/edit?tab=t.0) 🏁
 7. Notas de clase:📚
+   
    **Modulo 1**
    - [27 de enero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase1_Notas.md)
    - [29 de enero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase2_Notas.md)
@@ -21,6 +22,6 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
    - [10 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase4_Notas.md)
    - [13 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase5_Notas.md) 
      
-9. Pueden agendar una consulta con el profesor a través de [este enlace](https://calendar.app.google/zTa7hqeXzoQ4ebwz7). 
+8. Pueden agendar una consulta con el profesor a través de [este enlace](https://calendar.app.google/zTa7hqeXzoQ4ebwz7). 
 
 Nota: Todos los trabajos se entregan por correo electrónico. 
