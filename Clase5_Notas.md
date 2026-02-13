@@ -116,7 +116,7 @@ Los diseños transversales también permiten analizar el cambio a menor coste, i
 |**Transversal**|Único momento|Una muestra en un punto del tiempo|Fotografía estática del fenómeno|Encuesta simultánea en países de la UE sobre actitudes ante minorías étnicas|
 |**Longitudinal de tendencias**|Varios momentos|Sujetos diferentes cada vez, mismo diseño muestral|La población es la misma, pero las personas encuestadas cambian|Encuesta anual desde 2008 sobre racismo en España, con personas distintas cada año|
 |**Longitudinal de cohorte**|Varios momentos|Muestras distintas extraídas de una misma subpoblación (cohorte)|Se focaliza en un grupo que comparte una característica (edad, año de graduación, etc.)|Cada dos años se encuesta a una muestra diferente de licenciados en sociología en 2009|
-|**Longitudinal de panel**|Varios momentos|Los mismos individuos en todas las mediciones|Permite investigar causas del cambio individual; riesgo de desgaste muestral y sesgo por aprendizaje|La misma encuesta a la misma muestra de licenciados cada dos años|
+|**Longitudinal de panel**|Varios momentos|Los mismos individuos en todas las mediciones|Permite investigar causas del cambio individual; riesgo de desgaste muestral y sesgo por aprendizaje|The People's Choice (ver debajo)|
 |**Retrospectivo (transversal)**|Único momento|Una muestra, con preguntas sobre el pasado|Alternativa de menor coste a los longitudinales; limitada por la fiabilidad de la memoria|Incluir en un cuestionario preguntas sobre experiencias o situaciones pasadas|
 
 ---
