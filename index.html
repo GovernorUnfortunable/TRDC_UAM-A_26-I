@@ -102,6 +102,7 @@
 #Modulo 1 - Clase 4
 #Modulo 1 - Clase 5
 #Modulo 2 - Clase 6
+#Modulo
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="#edf6f9" template="" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -1655,6 +1656,332 @@ Base de "grandes" datos (big data), colaboración (internacional, académica, en
 1. La forma en que representan el mundo (y la circulación de esas representaciones, los datos) separa los fenómenos estudiados de las fuentes en las que se manifiestan.
 2. Las fuentes de datos pueden ser ruidosas, parciales, o no estructuradas (problema metodológico).
 3. Requiere poder dar cuenta de las prácticas sociales que han producido los datos analizados (y las relaciones con las plataformas/archivos/tecnologías que permiten acceder a y utilizar estos datos).
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#1C7C54" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Modulo 2 📂
+## Recuperando datos ⬅ 💽 💾
+### Clase 7
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Para hoy 📅
+1. URL, ¿qué son? ¿Por qué importan?
+2. Data provenance/origen de los datos: ¿por qué nos importa el contexto?
+3. Presentación de dos herramientas abiertas (mediacloud, Wikidata)
+4. Memoria digital: el rol de Internet Archive y de la Wayback Machine.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## ¿Qué es una URL? 🖥
+
+**URL** = *Uniform Resource Locator* → la "dirección" de un recurso en internet
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Anatomía de una URL 🕸
+```
+https://query.wikidata.org/sparql?query=SELECT
+  |         |              |       |      |
+protocolo  dominio        ruta  parámetro valor
+```
+
+```
+https://www.mediacloud.org/search/results
+  |             |                |
+  |             |                |
+protocolo     dominio           ruta
+```
+
+```
+https://www.amazon.com/products/books
+  |             |              |
+  |             |              |
+protocolo     dominio         ruta
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Actividad grupal: Analizando URLs 💽
+
+Vamos a nuestros grupos:
+1. Analicemos las siguientes URLs (o) y
+2. Respondamos las preguntas.
+Tienen 10 minutos. 
+Anoten, para compartir con el resto de la clase.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### URL 1 🖥
+```
+https://www.mediacloud.org/search/results
+```
+- ¿Cuál es el dominio?
+- ¿Qué nos dice la ruta sobre lo que encontraremos?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### URL 2 🖥
+```
+https://www.amazon.com/s?k=metodos+cuantitativos
+```
+- ¿Qué creen que significa `k=metodos+cuantitativos`?
+- ¿Qué pasaría si cambiaran ese valor?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### URL 3 🖥
+```
+https://www.google.com/search?q=sociologia&hl=es
+```
+- ¿Cuántos parámetros hay? ¿Cuáles son?
+- ¿Qué hace el parámetro `hl=es`?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Síntesis
+
+| Parte          | Qué es                              | Ejemplo              |
+| -------------- | ----------------------------------- | -------------------- |
+| **Protocolo**  | Cómo se accede                      | `https://`           |
+| **Dominio**    | El sitio o servidor                 | `query.wikidata.org` |
+| **Ruta**       | La página o recurso específico      | `/sparql`            |
+| **Parámetros** | Filtros o instrucciones adicionales | `?query=SELECT`      |
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Archivo y memoria
+
+Presentamos Wayback Machine del Internet Archive. 
+
+https://web.archive.org
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#1C7C54" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Modulo 2 📂
+## Recuperando datos 🔄
+### Clase 8
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## URLs, ¿por qué son importantes?
+
+- Cada búsqueda en MediaCloud o Wikidata genera una URL única
+- Leer su estructura es entender cómo estamos interactuando con la plataforma
+- Esa URL **puede guardarse y compartirse** → permite <mark>reproducir exactamente</mark> la misma consulta (trazabilidad)
+- Es parte de documentar la **estrategia de búsqueda** (y entender las decisiones que tomamos)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Buenas prácticas
+
+ 1. Llevar "**anotaciones**" que registren:
+	 1. El **camino** que hacemos: hitos específicos (puntos clave en el camino)
+	 2. Las **decisiones** que tomamos (en base a lo que encontramos)
+2. En las anotaciones, registrar y comentar las **URLs de búsquedas relevantes** (hitos) junto con:
+	1. La fecha en que se realizó (si estás trabajando con estas u otras bases de datos)
+	2. Primeras interpretaciones y hallazgos, 
+	3. Decisiones sobre cómo avanzar
+	4. Ideas generales sobre la posible utilización de los datos
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Dos plataformas, dos tipos de datos 💻  💾
+
+| | **MediaCloud** | **Wikidata** |
+|---|---|---|
+| **¿Qué es?** | Archivo de medios de comunicación | Base de datos estructurada y colaborativa |
+| **¿Qué contiene?** | Artículos de prensa de miles de medios | Hechos sobre entidades del mundo (personas, lugares, organizaciones) |
+| **¿Para qué sirve?** | Explorar cómo se discute un tema en la prensa | Contextualizar empíricamente un objeto de estudio |
+| **Objetivo en clase** | Diseño exploratorio | Diseño descriptivo y/o exploratorio |
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## ¿De dónde vienen estos datos?  🔀
+
+Antes de buscar, conviene preguntarse: **¿quién los produce, cómo y para qué?**
+
+- **MediaCloud:** los datos provienen de medios de comunicación que publican en línea. 
+	- Funciona con una tecnología que se llama RSS, capturando feeds de noticias. 
+	- Ofrece metadatos (descriptores de los artículos y las fuentes), URLs, y 
+	- Los medios no muestran la realidad: reflejan prioridades editoriales, sesgos e intereses en el proceso periodístico. 
+- **Wikidata:** los datos son generados colaborativamente por una comunidad de editores. Refleja lo que esa comunidad considera relevante registrar y cómo lo clasifica.
+	- Criterios para la
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Parte 1: MediaCloud ☁ 🗞
+
+### ¿Qué es MediaCloud?
+
+- Plataforma de investigación desarrollada por el MIT y otras universidades de EEUU
+- Permite buscar y analizar cobertura mediática en miles de medios de comunicación
+- Útil para responder preguntas como: *¿Cómo se habla de X tema en la prensa? ¿Con qué frecuencia? ¿En qué contextos? ¿Qué actores se mencionan?*
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Condiciones que hacen posible estos datos 🗺
+
+- Medios que publican digitalmente y de forma accesible
+- Medios que publican sus noticias usando RSS
+- Decisiones editoriales sobre qué priorizar/cubrir (y qué no)
+- El idioma, la región/alcance geográfico del medio y el tipo de política editorial. 
+- Estas condiciones determinan la interpretación de estos datos como "huellas" de procesos sociales. 
+- Todo esto determina qué podemos observar con estos datos (otras observaciones y bases pueden "conectarse")
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Cómo buscar en MediaCloud ☁ 🗞
+
+1. Acceder a [mediacloud.org](https://mediacloud.org)
+2. **Operacionalizar** nuestra pregunta a través de: 
+	1. Seleccionar una **colección de medios** (país, región, tipo de medio)
+	2. Formular una **consulta con palabras clave**
+	3. Definir un **rango temporal** 
+3. **Explorar e interpretar los resultados**: volumen de cobertura, medios que publican, términos relacionados.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Cómo buscar en MediaCloud ☁ 🗞
+**Consejos para la búsqueda:**
+- Usar términos específicos y también sinónimos o variaciones
+- Comparar distintas colecciones de medios para ver diferencias en cobertura
+- Atender a los picos y caídas en el tiempo: ¿qué los explica?
+
+ 
+
+-- 
+## Ejemplo 1: salario mínimo 💰 📈
+
+["SALARIO MÍNIMO" _OR_ "SALARIO MINIMO"](search.mediacloud.org/search?qs=%2522salario%2520minimo%2522%2520OR%2520%2522salario%2520m%25C3%25ADnimo%2522%250A&start=01-20-2018&end=02-22-2026&p=onlinenews-mediacloud&ss=&cs=38380322&any=any&name=%22salario%20minimo%22%20OR%20%22salario%20m%C3%ADnimo%22%0A&edit=false)"
+
+Observen
+1. Picos de atención 
+2. Fuentes 
+3. Palabras clave: entidades mencionadas
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 1: salario mínimo 💰 📈 
+
+("salario minimo" OR "salario mínimo") AND ("COPARMEX" OR "CONASAMI")
+
+search.mediacloud.org/search?qs=(%2522salario%2520minimo%2522%2520OR%2520%2522salario%2520m%25C3%25ADnimo%2522)%2520AND%2520(%2522COPARMEX%2522%2520OR%2520%2522CONASAMI%2522)%250A&start=01-20-2018&end=02-22-2026&p=onlinenews-mediacloud&ss=&cs=38380322&any=any&name=(%22salario%20minimo%22%20OR%20%22salario%20m%C3%ADnimo%22)%20AND%20(%22COPARMEX%22AND%22CONSAMI%22)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 2: Derrame Cuenca Río Sonora 🛢 🫗
+
+1. Vertido de 40 mil metros cúbicos (40M de lts.)
+2. Contaminación de la cuenca (254 km)
+3. Afectación a siete municipios
+4. Mayor desastre ambiental de México
+5. Movilización y activismo
+
+[Desastre ecológico en los ríos Bacanuchi y Sonora](https://es.wikipedia.org/wiki/Desastre_ecol%C3%B3gico_en_los_r%C3%ADos_Bacanuchi_y_Sonora)
+
+["rio Sonora" and "Grupo México"](https://tinyurl.com/MediaCloudGM)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 2: Derrame Cuenca Río Sonora 🛢 🫗
+
+1. Fuentes
+2. Top words
+3. Actores (Grupo México, AMLO, SEMARNAT, Afectados/pobladores) ¿Para qué puede servir hacer foco en alguno?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Parte 2: Wikidata 📖 💽
+### ¿Qué es?
+
+- Base de datos abierta y estructurada, mantenida por la comunidad Wikimedia
+- Almacena información sobre entidades (personas, organizaciones, lugares, conceptos) en forma de **propiedades y valores**
+- Se puede consultar (y automatizar) mediante lenguaje SPARQL o interfaces visuales
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Condiciones que hacen posible estos datos 
+
+- Una comunidad global de editores que decide qué registrar y cómo
+- Un modelo de datos basado en **ítems**, **propiedades** y **valores**
+- La cobertura es desigual: algunas entidades están muy bien documentadas, otras apenas existen
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Cómo buscar en Wikidata 🔍
+
+1. Acceder a [wikidata.org](https://wikidata.org) o al [Wikidata Query Service](https://query.wikidata.org)
+2. Buscar la entidad que les interesa (persona, organización, lugar, etc.)
+3. Explorar sus propiedades: ¿qué información está disponible?
+4. Si quieren consultas más complejas, usar el **SPARQL Query Service** con consultas guiadas o ejemplos
+5. Para codificar búsquedas en Wikidata podemos usar un LLM que traduzca el lenguaje natural a Queries de SPARQL
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Pasos 👣
+- Buscar directamente el nombre de la entidad
+- Revisar qué propiedades tiene y qué valores registra
+- Usar la herramienta de ejemplos del Query Service
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 1: golpes de Estado en América Latina (S. XX) 🪖 
+
+1. Golpes de Estado: derrocamiento repentino de un gobierno por medios inconstitucionales (https://www.wikidata.org/wiki/Q45382)
+2. Lugar:  estado soberano donde se encuentra este elemento (https://www.wikidata.org/wiki/Property:P17)
+
+[Resultado](https://query.wikidata.org/#%23%20Golpes%20de%20estado%20en%20el%20siglo%20XX%0ASELECT%20%3FgolpeLabel%20%3FlugarLabel%20%3Ffecha%20WHERE%20%7B%0A%20%20%3Fgolpe%20wdt%3AP31%20wd%3AQ45382%3B%20%20%20%20%20%23%20instancia%20de%3A%20golpe%20de%20estado%0A%20%20%20%20%20%20%20%20%20wdt%3AP17%20%3Flugar.%0A%20%20OPTIONAL%20%7B%20%3Fgolpe%20wdt%3AP585%20%3Ffecha.%20%7D%0A%20%20FILTER%28%3Ffecha%20%3E%3D%20%221900-01-01%22%5E%5Exsd%3AdateTime%20%26%26%20%3Ffecha%20%3C%20%222000-01-01%22%5E%5Exsd%3AdateTime%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22es%22.%20%7D%0A%7D%0AORDER%20BY%20%3Ffecha%0A)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 2: Ciudades Con Metro 🚇🏙
+
+1. [Ciudades](https://www.wikidata.org/wiki/Q515) : entidad de población urbana grande
+	1. Población (https://www.wikidata.org/wiki/Property:P1082)
+	2. Fundacion (https://www.wikidata.org/wiki/Property:P571)
+2. [Sistema de Transporte Rápido](https://www.wikidata.org/wiki/Q5503) (Rapid Transit): metro, tren subterráneo, tren metropolitano. 
+3. Imágenes (https://www.wikidata.org/wiki/Property:P18)
+
+[Resultado](https://query.wikidata.org/#SELECT%20DISTINCT%20%3FciudadLabel%20%3FpaisLabel%20%3Fpoblacion%20%3Fimagen%0AWHERE%20%7B%0A%20%20%23%20Ciudades%0A%20%20%3Fciudad%20wdt%3AP31%20wd%3AQ515%20.%0A%20%20%0A%20%20%23%20Que%20tengan%20un%20sistema%20de%20transporte%20r%C3%A1pido%0A%20%20%3Fsistema%20wdt%3AP31%20wd%3AQ5503%20.%0A%20%20%3Fsistema%20wdt%3AP131%20%3Fciudad%20.%0A%20%20%0A%20%20%23%20Pa%C3%ADs%0A%20%20%3Fciudad%20wdt%3AP17%20%3Fpais%20.%0A%20%20%0A%20%20%23%20Poblaci%C3%B3n%20de%20la%20ciudad%0A%20%20OPTIONAL%20%7B%20%3Fciudad%20wdt%3AP1082%20%3Fpoblacion%20%7D%0A%20%20%0A%20%20%23%20Imagen%20del%20sistema%20de%20transporte%0A%20%20OPTIONAL%20%7B%20%3Fsistema%20wdt%3AP18%20%3Fimagen%20%7D%0A%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22es%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20DESC%28%3Fpoblacion%29)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ejemplo 3: Mujeres que son o fueron presidentas 🤵‍♀ 
+
+https://w.wiki/HytC
+
+- `?women wdt:P31 wd:Q5` — la persona debe ser una instancia de ser humano (Q5).
+- `?women wdt:P21 wd:Q6581072` — su género debe ser femenino (Q6581072).
+- `?women wdt:P39 ?position` — debe tener un cargo (P39) registrado, que se guarda en la variable ?position.
+- `?position wdt:P279* wd:Q30461` — ese cargo debe ser una subclase de "presidente" (Q30461). El asterisco `*` permite recorrer múltiples niveles de subclases, por lo que captura cargos como "Presidenta de Francia", "Presidenta de Brasil", etc.
+- `?position wdt:P1001 ?jurisdiction` — el cargo debe estar vinculado a una jurisdicción concreta mediante la propiedad P1001 ("aplica a la jurisdicción").
+- `?jurisdiction wdt:P31 wd:Q3624078` — esa jurisdicción debe ser una instancia de estado soberano (Q3624078), lo que excluye universidades, empresas u otras organizaciones.
+- `FILTER NOT EXISTS { ?women wdt:P570 ?death }` — excluye a cualquier persona que tenga registrada una fecha de fallecimiento (P570), quedándonos solo con personas vivas.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Actividad: Refinando objetivos y estrategias de búsqueda
+
+### Antes de comenzar:
+
+1. **Revisiten sus objetivos** (exploratorios y/o descriptivos) formulados en clases anteriores
+2. **MediaCloud:** ¿Cómo se discute su objeto de investigación en la prensa? Formulen al menos una estrategia de búsqueda (palabras clave, colección, rango temporal)
+3. **Wikidata:** ¿Qué entidades o propiedades son relevantes para contextualizar empíricamente su tema? ¿Qué tipo de variables podrían extraer?
+4. **Discusión grupal:** ¿Qué limitaciones encuentran en cada plataforma para su objeto de estudio?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Actividad 
+#### Entrega para la próxima clase
+
+Para cada plataforma (MediaCloud y Wikidata), cada equipo debe entregar:
+
+1. **La estrategia de búsqueda** **diseñada**: palabras clave, filtros y criterios utilizados (pueden copiarme el URL)
+2. **Una evaluación de pertinencia:** ¿Son útiles estos datos para explorar o describir su objeto? ¿Qué límites encuentran?
+3. **Si los datos no son pertinentes:** justificar por qué esta plataforma no es adecuada para su caso y qué limitaciones identificaron
+
+> *Recuerden: no encontrar datos útiles también es un resultado válido, siempre que esté bien justificado.*
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="has-light-background drop" template="" data-background-color="#F2E7BF" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1200px; width: 1800px; min-height: 1200px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
