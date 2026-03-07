@@ -33,7 +33,6 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
    - [3 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase3_Notas.md)
    - [10 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase4_Notas.md)
    - [13 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase5_Notas.md)
-  
   **Modulo 2 📂**
    - [17 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase6_Notas.md)
    - [19 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase7_Notas.md)
