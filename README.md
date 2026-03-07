@@ -41,9 +41,9 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
    - [24 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase8_Notas.md)
    - 26 de febrero (sin notas para esta clase, presentamos el Parcial I)
 
-10. **Tareas**
+9. **Tareas**
    - [Tarea 1, 12 de febrero.](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/126)
    - [Tarea 2, 24 de febrero.](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/179)
-11. Pueden agendar una consulta con el profesor a través de [este enlace](https://calendar.app.google/zTa7hqeXzoQ4ebwz7). 
+10. Pueden agendar una consulta con el profesor a través de [este enlace](https://calendar.app.google/zTa7hqeXzoQ4ebwz7). 
 
 Nota: Todos los trabajos se entregan por correo electrónico. 
