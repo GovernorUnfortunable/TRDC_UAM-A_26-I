@@ -18,8 +18,8 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
    - [Clase 26 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/180)
 
    **Modulo 3 🗒**
-   - [Clase 3 de Marzo](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/184)
-   - Clase 5 de Marzo (sin diapositivas)
+   - [Clase 3 de marzo](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/184)
+   - Clase 5 de marzo (sin diapositivas, devoluciones Parcial I)
   
 3. [Programa de la materia](https://docs.google.com/document/d/10gop7zTOOWGcr2-RefogXitJt2WNdrbMH0j70Cf-l5A/edit?usp=sharing) 📑
 4. [Cronograma de clase](https://docs.google.com/document/d/10gop7zTOOWGcr2-RefogXitJt2WNdrbMH0j70Cf-l5A/edit?tab=t.0) 🕰️
@@ -39,7 +39,7 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
    - [17 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase6_Notas.md)
    - [19 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase7_Notas.md)
    - [24 de febrero](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase8_Notas.md)
-   - [26 de febrero] (sin notas para esta clase, presentamos el Parcial I)
+   - 26 de febrero (sin notas para esta clase, presentamos el Parcial I)
 
 10. **Tareas**
    - [Tarea 1, 12 de febrero.](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/126)
