@@ -3,13 +3,15 @@
 Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitativos", UAM Azcapotzalco, Trimestre 26-I.
 
 1. [Diapositivas de la materia](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/) 👨‍🏫
-   **Modulo 1**
+
+   **Modulo 1 📐**
    - [Clase 27 de enero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/8)
    - [Clase 29 de enero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/28)
    - [Clase 3 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/50)
    - [Clase 10 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/83)
    - [Clase 12 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/102)
-   **Modulo 2**
+   
+   **Modulo 2 📂**
    - [Clase 17 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/127)
    - [Clase 19 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/149)
    - [Clase 24 de febrero](https://governorunfortunable.github.io/TRDC_UAM-A_26-I/#/0/159)
