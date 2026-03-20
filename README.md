@@ -47,9 +47,9 @@ Repositorio de apoyo a la materia "Técnicas de Recuperación de Datos Cuantitat
 
    **Modulo 3 📂**
    - [3 de marzo](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase10_Notas.md)
-   - 5 de marzo (sin notas, actividad en clase)
+   - 5 de marzo (sin notas, devolución parcial I)
    - [10 de marzo](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase12_Notas.md)
-   - 12 de marzo (sin notas)
+   - 12 de marzo (sin notas, actividad en clase)
 
    **Modulo 4 📂**
    - [17 de marzo](https://github.com/GovernorUnfortunable/TRDC_UAM-A_26-I/blob/main/Clase14_Notas.md)
