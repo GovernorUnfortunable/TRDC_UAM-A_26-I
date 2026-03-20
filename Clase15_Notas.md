@@ -76,4 +76,4 @@ Para tener claro cómo el Parcial II alimenta la Entrega Final, revisamos la sig
 
 Lo que construimos en el Parcial II es la base de la entrega final. Los elementos que aparecen resaltados en la tabla (diseño muestral, cronograma y limitaciones) son los que se agregan en la entrega final y que todavía no están en el Parcial II.
 
-El template del Parcial II está disponible en: https://tinyurl.com/TRDC-Parcial-II
+Recuerden que modelo o _template_ del Parcial II está disponible en: https://tinyurl.com/TRDC-Parcial-II
